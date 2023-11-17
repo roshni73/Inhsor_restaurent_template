@@ -1,0 +1,857 @@
+@font-face {
+  font-family: 'MuedaCity';
+  src: url('../assets/fonts/MuedaCity-BWDql.ttf');
+}
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: 'MuedaCity';
+}
+
+.background {
+  background-image: url('../assets/tabletop-restaurant.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  opacity:1.0;
+  
+}
+
+header {
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  font-family: raleway, sans-serif;
+  font-size: 20px;
+}
+
+.navbar {
+  background-color: transparent;
+}
+
+.logo img {
+  width:150px;
+  padding: 15px;
+  margin-left:20px;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav li {
+  margin: 0 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #c0baba;
+  font-family: 'MuedaCity';
+  font-weight: normal;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #e54747;
+}
+
+.menu-icon {
+  display: none;
+}
+
+.drop-down-menu{
+  display: none;
+}
+
+.drop-down-menu a{
+  display: none;
+}
+
+.book-table {
+  margin-right: 30px;
+  font-family:  'MuedaCity';
+  background-color: #ff7f50;
+  border-radius: 5px;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+}
+.book-table :hover{
+  color: #e44d26;
+}
+.book-table2{
+  display:none;
+}
+
+.center-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin-top: 15rem;
+
+  .text {
+    color:#d14040;
+    font-size: 50px;
+    font-family: 'MuedaCity';
+    opacity: 1.0;
+  }
+
+  .slogan {
+    color:black;
+    font-size: 30px;
+    font-family: 'MuedaCity';
+  }
+}
+
+/*
+.slideshow-container {
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  margin-top: 20px;
+}
+
+.slide {
+  display:flex;
+  width: 100%;
+  transition: opacity 1s;
+}
+
+.slide img {
+  width: 100%;
+  height: auto;
+}
+
+.prev,
+.next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  padding: 15px;
+  font-size: 24px;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+}
+
+.prev {
+  left: 0;
+}
+
+.next {
+  right: 0;
+}
+
+.fade {
+  animation-name: fade;
+  animation-duration: 2s;
+}
+
+@keyframes fade {
+  0% {
+    opacity: 0.4;
+  }
+
+  20% {
+    opacity: 1;
+  }
+
+  80% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0.4;
+  }
+}*/
+body {
+  font-family: raleay sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  
+}
+
+.special-food {
+  
+  text-align: center;
+  font-family: 'MuedaCity';
+  padding: 20px;
+  max-width: 100%;
+  margin: 0px auto;
+  background-color: #fff;
+
+}
+.sp-food h2{
+  margin-top:20px;
+  letter-spacing: 2px;
+}
+.special-food h2{
+  margin-top:10px;
+  font-family:'MuedaCity' ;
+  font-size: 30px;
+  color: #1C363D;
+  }
+.special-food p{
+  font-size: 16px;
+  color:#1C363D;
+  margin-bottom: 10px;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  box-shadow: #333;
+}
+
+.column {
+  padding: 20px;
+  max-width: 300px;
+}
+
+.card {
+  border: 1px solid #d0c3c3;
+  box-shadow: 0 4px 6px rgba(180, 34, 34, 0.1);
+  text-align: left;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.container {
+  padding: 30px;
+}
+
+h2 {
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+body {
+
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  font-family:'MuedaCity';
+}
+
+.menu {
+  max-width: 100%;
+  margin: 0px auto;
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+}
+
+.category {
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+h2 {
+  color: #333;
+  font-size: 30px;
+}
+
+ul {
+  display:flex;
+  list-style: none;
+  padding:0;
+  gap:2rem;
+}
+
+.dish {
+  border: 1px solid #d0c3c3;
+  padding-bottom: 15px;
+  margin-bottom: 15px;
+  margin: 12px;
+  border-radius:10px;
+
+  .dish li{
+    display: flex;
+    flex-wrap: wrap;
+    
+    margin: 20px;
+  }
+
+}
+
+h3 {
+  margin: 10px;
+  color: #d14040;
+}
+
+p {
+  margin:5px;
+  color: #100f0f;
+  font-size: 16px;
+}
+
+span {
+  display:flex;
+  justify-content: center;
+  margin-top: 12px;
+  font-weight: bold;
+  color: #333;
+}
+
+.card-img {
+  max-width: 100%;
+  border-radius:50%
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+/*-------*/
+.container {
+  margin: 0 auto;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+
+}
+
+
+.food {
+  width: 20%;
+  margin: 10px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.join-us {
+  max-width: 100%;
+  margin: 50px auto;
+  background-color: #fff;
+  padding: 20px;
+  text-align: center;
+  font-family: 'raleay sans-serif';
+
+  color: rgb(15, 15, 15)
+}
+
+.join-us-content {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.join-us h2 {
+  font-size: 24px;
+  font-family:'MuedaCity';
+  color:#1C363D;
+}
+
+.join-us p {
+  color:#0a0101;
+  font-size: 16px;
+  font-family:'MuedaCity';
+}
+.why-us{
+  margin:20px;
+
+}
+
+button.sign-up {
+  background-color: #ff7f50;
+  color: rgb(19, 18, 18);
+  margin-top: 15px;
+  font-size: 18px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.order-box {
+  display: flex;
+  border: none;
+}
+
+
+
+
+.product-1 img,
+.product-2 img {
+  max-width:100%;
+  height: auto;
+  
+ 
+}
+
+
+.Order-online {
+  padding: 20px;
+  background-color: #f4f4f4;
+  border-radius: 10px;
+  text-align: center;
+  max-width: 100%;
+  margin: 0px auto;
+}
+
+.cards {
+  flex:1;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.cards img {
+  width:100%;
+  border-bottom: 1px solid #ddd;
+
+}
+
+
+.online,
+.container {
+  padding: 20px;
+
+}
+
+.row-card {
+  display: flex;
+  justify-content: space-between;
+  padding:20px;
+  margin:20px;
+  gap:5rem;
+
+}
+
+.button {
+  background-color: #ff7f50;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #45a049;
+}
+.colum-cards{
+  width: auto;
+
+  
+}
+
+.footer {
+  background-color: #1C363D;
+  margin:0 auto;
+  color: #fff;
+  padding: 20px;
+  font-family:'raleay sans-serif';
+  }
+
+.contact-box {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.contact-content {
+  flex-basis: 100%;
+}
+
+.section-wrapper {
+  display: flex;
+  flex-basis: 60%;
+  margin-right: 30px;
+  justify-content: space-between;
+}
+
+.opening-hours {
+  margin-bottom: 20px;
+}
+
+.opening-hours h3,
+.opening-hours h4 {
+  color: #fff;
+
+}
+.opening-hours li{
+  margin-top: 5px;
+  color: #c0baba;
+  list-style: none;
+
+}
+
+.dress-code {
+
+}
+
+.dress-code h3 {
+  color: #fff;
+}
+
+.dress-code li {
+  color: #c0baba;
+  list-style: none;
+}
+
+.section-wrapper-2 {
+  display: flex;
+  flex-basis: 40%;
+  margin-right: 30px;
+}
+
+.social {
+  margin-bottom: 20px;
+  text-align:left;
+
+}
+
+.social h3 {
+  color: #fff;
+}
+
+.resto-logo {
+  text-align: left;
+}
+
+.resto-logo img {
+  width:250px;
+  height:50px;
+}
+.location-information{
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+}
+
+.social-links {
+  justify-content: space-between;
+  
+}
+.social p{
+  color:#ffff;
+}
+
+.social i {
+  justify-content: space-between;
+  margin-right: 10px;
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+
+}
+
+.instagram {
+  text-align: right;
+}
+
+.divider {
+  width: 100%;
+  height: 2px;
+  background-color: #ccc;
+  margin: 20px 0;
+}
+
+.location-information {
+  flex-basis: 100%;
+  margin-bottom: 25px;
+  gap: 1rem;
+}
+
+.location-icon a {
+  color: #fff;
+  text-decoration: none;
+  padding:5px;
+}
+
+.contact {
+  margin-top: 5px;
+
+  color: #fff;
+}
+
+.copyright {
+  flex-basis: 100%;
+  text-align: center;
+
+}
+.copyright p{
+  color:#d5d0d0
+}
+
+
+@media (max-width: 768px){
+  .background-img {
+    height: 200px;
+    padding: 0;
+  }
+  .center-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-top:10rem;
+  
+    .text {
+      color:#d14040;;
+      font-size: 40px;
+      font-family: 'MuedaCity';
+    }
+  
+    .slogan {
+      color:black;
+      font-size: 20px;
+      font-family: 'MuedaCity';
+    }
+  }
+  .book-table2{
+    justify-content: center;
+    margin-right:200px;
+    font-family:  'MuedaCity';
+    font-size: 20px;
+    background-color: #1C363D;;
+    border-radius: 5px;
+    color: #fff;
+    border:#1C363D;
+    cursor: pointer;
+    padding: 10px;
+    display:flex;
+    margin-top: 30px;
+    margin-left:200px;
+    box-shadow: #fe1a1a;
+
+  }
+  .book-table :hover{
+    color: #e44d26;
+  }
+  
+
+
+  .menu-item {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .menu-item img {
+    margin-right: 10;
+    margin-bottom: 10px;
+  }
+
+  .why-us-content {
+    flex-direction: column;
+  }
+
+  .join-us-content {
+    max-width: 90%;
+  }
+
+  .contact-box {
+    padding: 20px;
+  }
+
+  .contact-content {
+    display: flex;
+    flex-direction: column;
+  }
+  .menu-icon {
+    display: flex;
+    justify-content: left;
+    cursor: pointer;
+  }
+
+  .section-wrapper {
+    margin-top: 10px;
+    flex-direction: column;
+  }
+  .row-card{
+  flex-wrap: wrap;}
+
+
+  .menu-icon {
+    display:flex;
+  }
+
+  .drop-down-menu{
+    display: flex;
+  }
+
+  .drop-down-menu a{
+    display:flex;
+    justify-content: left;
+  }
+
+  .footer{
+    padding: 0px;
+  }
+
+  .contact-box{
+    padding: 20px 20px;
+  }
+
+  .opening-hours p {
+    text-align: left;
+  }
+  .navbar {
+    display:none;
+    text-align: center;
+  }
+  
+  .drop-down-menu a.icon {
+    background: black;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .drop-down-menu {
+    display: none;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.7);
+  }
+  
+  .drop-down-menu a {
+    color: white;
+    align-items: center;
+    text-align: center;
+    padding: 10px 10px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+  }
+  .book-table{
+    display: none;
+  }
+  
+  .drop-down-menu a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  .menu .category ul li {
+    width:100%;
+    box-sizing: border-box;
+    float: left;
+  }
+  
+  .menu .category ul {
+    flex-wrap: wrap;
+  }
+}
+
+  
+
+
+
+@media only screen and (max-width:400px) {
+  
+  logo img {
+    max-width: 100%;
+    height: auto;
+  }
+  .background{
+    height:100%;
+  }
+
+  /* Menu icon */
+  .menu-icon {
+    display: flex;
+    justify-content: left;
+    cursor: pointer;
+  }
+
+  .drop-down-menu {
+    display: none;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.7);
+  }
+  
+  .drop-down-menu a {
+    color: white;
+    align-items: center;
+    text-align: center;
+    padding: 10px 10px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+  }
+  
+  .drop-down-menu a.icon {
+    background: black;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  
+  .drop-down-menu a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+   .row-card{
+    flex-wrap: wrap;}
+
+
+  .book-table{
+    display: none;
+  }
+
+  .navbar {
+    display: none;
+    text-align: center;
+  }
+
+  .navbar ul {
+    padding: 0;
+  }
+
+  .navbar li {
+    display: block;
+    margin-bottom: 10px;
+  }
+
+  .book-table {
+    display: none;
+
+    font-size: 14px;
+    padding: 10px 15px;
+  }
+
+  .center-text {
+    display:flex;
+    flex-direction:column;
+    text-align: center;
+    align-items: center;
+    
+  }
+
+  .center-text {
+    .text {
+      font-size:40px;
+      color:#d14040;
+    }
+
+    .slogan {
+      font-size: 30px;
+      color:black;
+    }
+  }
+  .menu .category ul li {
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .menu .category ul{
+    flex-wrap: wrap;
+  }
+
+}

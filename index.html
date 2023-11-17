@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="static/reset.css">
+  <link rel="stylesheet" href="static/style.css">
+  <title>Inhsor Restaurent</title>
+</head>
+
+<body>
+
+<!--header-->
+  <div class="background" id="home">
+    <header>
+      <div class="logo">
+        <img src="assets\icons\logo.png" alt="Restaurant Logo">
+      </div>
+
+      <nav class="navbar">
+        <ul>
+          <li><a href="#home">HOME</a></li>
+          <li><a href="#menu">MENU</a></li>
+          <li><a href="#special">SPECIALFOOD</a></li>
+          <li><a href="#contact">CONTACT</a></li>
+        </ul>
+      </nav>
+
+      <div class="menu-icon">
+        <a onclick="showDropDown()">
+          <i class="fa-solid fa-bars fa-lg" style="color: #ffffff;"></i>
+        </a>
+      </div>
+
+      <button class="book-table">BOOK A TABLE</button>
+    </header>
+
+    <div class="drop-down-menu" id="drop_down_links">
+      <a href="#home">HOME</a>
+      <a href="#menu">MENU</a>
+      <a href="#special">SPECIALFOOD</a>
+      <a href="#contact">CONTACT</a>
+    </div>
+
+    <div class="center-text">
+      <p class="text">INDULGE IN FLAVORFUL MOMENTS AT INHSOR
+      </p>
+      <p class="slogan">
+        Where Every Bite Tells a Story
+      </p>
+
+      <button class="book-table2">BOOK A TABLE</button>
+    </div>
+  </div>
+
+<!--cslideshow-
+
+  <div class="slideshow-container">
+    <div class="slide fade">
+      <img src="assets/background-img.jpg" alt="Image 1">
+    </div>
+    <div class="slide fade">
+      <img src="assets/background-img.webp" alt="Image 2">
+    </div>
+    <a class="prev" onclick="changeSlide(-1)">&#9665;</a>
+    <a class="next" onclick="changeSlide(1)">&#9655;</a>
+  </div>
+
+
+<-specialfood-->
+
+  <div class="special-food" id="special">
+    <h2 class="sp-food"> SPECIAL FOODS</h2>
+    <p class="sp-food">Specialty Description for Food </p>
+    <br>
+    <div class="row">
+      <div class="column">
+        <div class="card">
+          <img src="assets/special-food.jpg" alt="food1" style="width:100%">
+          <div class="container">
+            <h2>Food-1</h2>
+            <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+            <p><button class="button">discover the menu</button></p>
+          </div>
+        </div>
+      </div>
+      <div class="column">
+        <div class="card">
+          <img src="assets/special-food.jpg" alt="food2" style="width:100%">
+          <div class="container">
+            <h2>Food-2</h2>
+            <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+            <p><button class="button">Discover the menu</button></p>
+          </div>
+        </div>
+      </div>
+      <div class="column">
+        <div class="card">
+          <img src="assets/special-food.jpg" alt="food2" style="width:100%">
+          <div class="container">
+            <h2>Food-3</h2>
+            <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+            <p><button class="button">Discover the menu</button></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+
+
+
+
+
+<!--menu-->
+  <div class="menu" id="menu">
+    <div class="category">
+      <h2>OUR DELIGHTFUL DELICACIES</h2>
+      <ul>
+        <li>
+          <div class="dish">
+            <h3>Crispy Calamari</h3>
+            <img src="assets/dish2.jpg" alt="Crispy Calamari">
+            <p>Tender calamari rings, lightly battered and fried to perfection.</p>
+            <span>$8.99</span>
+          </div>
+        </li>
+        <li>
+          <div class="dish">
+            <h3>Crispy Calamari</h3>
+            <img src="assets/dish4.jpg" alt="Crispy Calamari">
+            <p>Tender calamari rings, lightly battered and fried to perfection.</p>
+            <span>$8.99</span>
+          </div>
+        </li>
+        <li>
+          <div class="dish">
+            <h3>Crispy Calamari</h3>
+            <img src="assets/dishes.jpg" alt="Crispy Calamari">
+            <p>Tender calamari rings, lightly battered and fried to perfection.</p>
+            <span>$8.99</span>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <div class="category">
+      <h2>Sweet Endings</h2>
+      <ul>
+        <li>
+          <div class="dish">
+            <h3>Crispy Calamari</h3>
+            <img src="assets/dish 6.jpg" alt="Crispy Calamari">
+            <p>Tender calamari rings, lightly battered and fried to perfection.</p>
+            <span>$8.99</span>
+          </div>
+        </li>
+        <li>
+          <div class="dish">
+            <h3>Crispy Calamari</h3>
+            <img src="assets/dish 6.jpg" alt="Crispy Calamari">
+            <p>Tender calamari rings, lightly battered and fried to perfection.</p>
+            <span>$8.99</span>
+          </div>
+        </li>
+        <li>
+          <div class="dish">
+            <h3>Crispy Calamari</h3>
+            <img src="assets/dish 6.jpg" alt="Crispy Calamari">
+            <p>Tender calamari rings, lightly battered and fried to perfection.</p>
+            <span>$8.99</span>
+
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+
+<!--oder online-->
+  <div class="Order-online">
+    <h2>ELEVATE YOUR TASTE,ORDER</h2>
+    <div class="row-card">
+      <div class="column-cards">
+        <div class="cards">
+          <img src="assets/special-food.jpg" alt="food1" style="width:100%">
+          <div class="online">
+            <h2>Food-1</h2>
+            <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+            <p><button class="button">Order</button></p>
+          </div>
+        </div>
+      </div>
+      <div class="column-cards">
+        <div class="cards">
+          <img src="assets/special-food.jpg" alt="food2" style="width:100%">
+          <div class="container">
+            <h2>Food-2</h2>
+            <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+            <p><button class="button">Order</button></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+<!--join us-->
+
+  <div class="join-us" id="contact">
+    <div class="join-us-content">
+      <h2>JOIN THE INHSOR FAM</h2>
+      <p>Ready to sprinkle some fun into your inbox? Become a cherished member of the Inhsor Fam! Not only will you be
+        the first to hear about our dough-lightful creations, but you'll also enjoy exclusive perks and sweet
+        surprises
+        reserved just for our family.</p>
+      <p class="why-us"><b>Why join?</b></p>
+      <p>🌟Exclusive deals that'll make you glaze over with joy.</p>
+      <p>🎁 Early access to our newest launches.</p>
+      <p>💌 Personalized treats and offers.</p>
+      <p>Dip into a world of delectable updates. <em>Sign up and let's roll together!</em></p>
+
+      <button class="sign-up">Sign up ></button>
+    </div>
+  </div>
+
+
+
+
+<!--footer part-->
+  <div class="footer">
+    <div class="contact-box">
+      <div class="contact-content">
+        <div class="section-wrapper">
+          <div class="opening-hours">
+            <h4>Opening Hours</h4>
+            <li>Breakfast: 7:00am - 10:30am daily</li>
+            <li>Lunch: 12:30pm - 2:45pm daily</li>
+            <li>Dinner: 7:00pm - 10:15pm daily;</li>
+          </div>
+          <div class="opening-hours">
+            <h4>Garden & St. Regis Bar</h4>
+            <li>12:00pm - 12:00am daily</li>
+            <li>Sabrage: 5:00 pm daily</li>
+          </div>
+          <div class="opening-hours">
+            <h3>Dress Code</h3>
+            <li>Breakfast & Lunch: Smart casual</li>
+            <li>Dinner: Elegant</li>
+          </div>
+        </div>
+        <div class="section-wrapper-2">
+          <div class="resto-logo">
+            <img src="assets/icons/logo.png">
+          </div>
+        </div>
+        <div class="divider"></div>
+
+        <div class="location-information">
+          <div class="information-container">
+            <div class="location">
+              <i class="fa-solid fa-bell-concierge fa-sm" style="color: #f5f5f5;"></i>New-baneswor,Kathmandu</a>
+            </div>
+            <div class="contact">
+              <div class="contact-icon">
+                <i class="fas fa-phone fa-sm" style="color: #ffffff;"></i> 9866345695
+              </div>
+            </div>
+          </div>
+
+          <div class="social">
+            <p>Follow Us</p>
+            <div class="social-links">
+              <i class="fa-brands fa-facebook fa-2xl" style="color: #ffffff;"></i>
+              <i class="fa-brands fa-instagram fa-2xl" style="color: #ffffff;"></i>
+              <i class="fa-brands fa-twitter fa-2xl" style="color: #ffffff;"></i>
+              <i class="fa-brands fa-youtube fa-2xl" style="color: #ffffff;"></i>
+            </div>
+          </div>
+        </div>
+          
+          <div class="divider"></div>
+          
+    
+        <div class="copyright">
+          <p>&copy; 2023 Your Website</p>
+          <p><a>Privacy Policy</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="assets/js/drop-down.js"></script>
+  <script src="https://kit.fontawesome.com/4921f1820a.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
